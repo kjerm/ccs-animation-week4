@@ -28,8 +28,10 @@ body {
     background-color: red;
     position: relative;
     animation: red;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+
     
 
 }
@@ -43,8 +45,10 @@ body {
 #yellow {
     background-color: yellow;
     animation: yellow;
-    animation-duration: 8s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+
 }
 
 @keyframes yellow {
@@ -55,7 +59,7 @@ body {
 #green {
     background-color: green;
     position: relative;
-    animation: green 3s;
+    animation: green 2s;
     animation-iteration-count: 5;
 }
 
